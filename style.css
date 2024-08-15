@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.switch{
+    border: 1px solid black;
+    width: 15vw;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: ease-in-out 0.5s;
+    display: flex;
+    justify-content: flex-start;
+    background: white;
+    transition: justify-content 0.5s ease-in-out;
+}
+
+.switch:hover{
+    box-shadow: 2px 3px 5px rgb(0, 0, 0.5);
+}
+
+.slider{
+    border: none;
+    border-radius: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    transition: background 0.5s ease-in-out;
+    background: black;
+    padding: 10px;
+}
+
+.app-img{
+    width: 40px;
+}
+
+.app-img::selection{
+    background: none;
+}
