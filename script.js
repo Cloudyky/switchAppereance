@@ -12,13 +12,13 @@ function changeApereance() {
         appApereance = dark;
         console.log(appApereance);
         switchTag.style.justifyContent = 'flex-end';
-        appImg.src = '/img/dark.png';
+        appImg.src = './img/dark.png';
         bodyTag.style.background = 'black';
     }else{
         appApereance = light;
         console.log(appApereance);
         switchTag.style.justifyContent = 'flex-start';
-        appImg.src = '/img/light.png';
+        appImg.src = './img/light.png';
         bodyTag.style.background = 'white';
     }
 }
